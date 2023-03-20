@@ -1,0 +1,123 @@
+.banner-image {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+}
+
+.search-icon {
+  color: white;
+}
+
+.search-icon:hover {
+  color: green;
+}
+
+.nav-home:hover {
+  color: rgb(178, 178, 234) !important;
+}
+
+h4 {
+  text-align: center;
+}
+
+.about p {
+  text-align: justify;
+}
+h6 {
+  text-align: center;
+  font-style: italic;
+}
+
+/******* tour start *******/
+.tour {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.tour h4 {
+  color: white;
+}
+
+.tour p {
+  color: aliceblue;
+  font-style: italic;
+}
+
+.tour .card p {
+  color: black;
+}
+
+.tour .card .tour-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+/******* tour end *******/
+
+.about {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/******* contact start *******/
+.contact {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact h3 {
+  text-align: center;
+}
+
+.icon-margin {
+  margin-right: auto;
+}
+
+.contact ul li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact ul li i {
+  margin-right: 10px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact input {
+  width: 100%;
+}
+
+.contact button {
+  margin-top: 20px;
+}
+
+.contact .submit-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/******* contact end *******/
+
+.footer-image {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.footer .icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
